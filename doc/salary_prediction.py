@@ -19,7 +19,7 @@ from xgboost.sklearn import XGBRegressor
 from sklearn.model_selection import GridSearchCV
 from sklearn.model_selection import train_test_split
 
-master = pd.read_csv('../data/master.csv')
+master = pd.read_csv('../input/master.csv')
 
 player = master[['mlb_name','mlb_pos','mlb_team','birth_year','espn_name','espn_id']] 
 player.rename(columns={'mlb_name':'Name',
@@ -31,7 +31,7 @@ player.rename(columns={'mlb_name':'Name',
 #sal_data = pd.read_html(sal_url)
 #sal_data = sal_data[0]
 
-sal_data = pd.read_csv('../data/sal_data.csv')
+sal_data = pd.read_csv('../input/sal_data.csv')
 
 # Remove $
 def dollar(col):
@@ -77,8 +77,8 @@ dat = pd.merge(sal_data, player, on = ['Name','Team'], how = 'left')
 dat.drop('POS_y', axis=1, inplace=True)
 dat.rename(columns={'POS_x':'POS'},inplace =True)
 
-war_bat = pd.read_csv('/Users/yuhanzha/Desktop/BBProject/zyh1213/data/war_daily_bat.csv')
-#war_pitch = pd.read_csv('/Users/yuhanzha/Desktop/BBProject/zyh1213/data/war_daily_pitch.csv')
+war_bat = pd.read_csv('../input/war_daily_bat.csv')
+#war_pitch = pd.read_csv('../input/war_daily_pitch.csv')
 
 
 
