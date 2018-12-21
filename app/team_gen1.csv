@@ -1,0 +1,31 @@
+lgID,teamID,name,divID,Rank,W,L,W-L%
+NL,ARI,Arizona Diamondbacks,W,2,93,69,.574
+NL,ATL,Atlanta Braves,E,3,72,90,.444
+AL,BAL,Baltimore Orioles,E,5,75,87,.463
+AL,BOS,Boston Red Sox,E,1,93,69,.574
+AL,CHA,Chicago White Sox,C,4,67,95,.414
+NL,CHN,Chicago Cubs,C,1,92,70,.568
+NL,CIN,Cincinnati Reds,C,5,68,94,.420
+AL,CLE,Cleveland Indians,C,1,102,60,.630
+NL,COL,Colorado Rockies,W,3,87,75,.537
+AL,DET,Detroit Tigers,C,5,64,98,.395
+AL,HOU,Houston Astros,W,1,101,61,.623
+AL,KCA,Kansas City Royals,C,3,80,82,.494
+AL,LAA,Los Angeles Angels,W,2,80,82,.494
+NL,LAN,Los Angeles Dodgers,W,1,104,58,.642
+NL,MIA,Miami Marlins,E,2,77,85,.475
+NL,MIL,Milwaukee Brewers,C,2,86,76,.531
+AL,MIN,Minnesota Twins,C,2,85,77,.525
+AL,NYA,New York Yankees,E,2,91,71,.562
+NL,NYN,New York Mets,E,4,70,92,.432
+AL,OAK,Oakland Athletics,W,5,75,87,.463
+NL,PHI,Philadelphia Phillies,E,5,66,96,.407
+NL,PIT,Pittsburgh Pirates,C,4,75,87,.463
+NL,SDN,San Diego Padres,W,4,71,91,.438
+AL,SEA,Seattle Mariners,W,3,78,84,.481
+NL,SFN,San Francisco Giants,W,5,64,98,.395
+NL,SLN,St. Louis Cardinals,C,3,83,79,.512
+AL,TBA,Tampa Bay Rays,E,3,80,82,.494
+AL,TEX,Texas Rangers,W,4,78,84,.481
+AL,TOR,Toronto Blue Jays,E,4,76,86,.469
+NL,WAS,Washington Nationals,E,1,97,65,.599

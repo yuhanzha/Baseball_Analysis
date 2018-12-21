@@ -1,3 +1,7 @@
+from google.appengine.ext import vendor
+# Add any libraries installed in the "lib" folder.
+vendor.add('lib')
+
 from flask import Flask, render_template, url_for, request
 import pandas as pd
 import numpy as np
@@ -53,27 +57,29 @@ def predict():
     #log_fit.fit(os_X, os_y)
     #log_fit.score(X_test, y_test)
 
-    OPS = float(request.form['OPS'])
+    OPS = request.form['OPS']
+
     Games_Played = int(request.form['Games_Played'])
-    Salary = float(request.form['Salary'])
+    Salary = int(request.form['Salary'])
     Age = int(request.form['Age'])
-    Weight_in_pounds = float(request.form['Weight in pounds'])
-    Height_in_inches = float(request.form['Height in inches'])
+    Weight_in_pounds = int(request.form['Weight in pounds'])
+    Height_in_inches = int(request.form['Height in inches'])
     Bats_Both = int(request.form['Bats Both'])
     Bats_Left = int(request.form['Bats Left'])
     Bats_Right = int(request.form['Bats Right'])
     Throws_Left = int(request.form['Throws Left'])
     Throws_Right = int(request.form['Throws Right'])
 
-    input_data = [OPS,Games_Played,Salary,Age,Weight_in_pounds,Height_in_inches,Bats_Both,Bats_Left,Bats_Right,Throws_Left,Throws_Right]
-
-    data = np.array(input_data).reshape(1, -1)
-    label = {0: 'Wow, this player seems before his peak!!!', 1: 'Unfortunately, this player seems after his peak'}
+    input_data = [{'OPS': OPS, 'Games_Played': Games_Played, 'Salary': Salary, 'Age': Age, 'Weight_in_pounds': Weight_in_pounds, 
+                    'Height_in_inches': Height_in_inches, 'Bats_Both': Bats_Both, 'Bats_Left': Bats_Left, 'Bats_Right': Bats_Right, 'Throws_Left': Throws_Left, 'Throws_Right': Throws_Right}]
+    data = pd.DataFrame(input_data)
+    label = {0: 'Wow, this player seems before his peak', 1: 'Unfortunately, this player seems after his peak'}
+    #my_prediction  = log_fit.predict(data)[0]
     
     my_prediction  = clf.predict(data)[0]
     resfinal = label[my_prediction]
         
-    if resfinal == 'Wow, this player seems before his peak!!!':
+    if resfinal == 'Before':
     	    return render_template('resultsalary1.html', prediction = resfinal)
     else:
         	return render_template('resultsalary.html', prediction = resfinal)
