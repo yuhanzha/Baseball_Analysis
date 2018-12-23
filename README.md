@@ -15,4 +15,4 @@
 
 ## Web Application Guideline
 
-Download 'app' folder to local computer. In terminal, cd to 'app' folder and input 'python usage-callback.py'. Open another terminal at the same time, input 'python app.py'. Then, you could run the web application in localhost. 
+Please download 'app' folder to local computer. In terminal, cd to 'app' folder and input 'python usage-callback.py'. Open another terminal at the same time, input 'python app.py'. Then, you could run the web application in localhost. 
