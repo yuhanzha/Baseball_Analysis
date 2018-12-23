@@ -1,10 +1,15 @@
 # Baseball_Analysis
 
 .
+
 ├── app                   # Web Application
+
 ├── doc                   # EDA and Predictions
+
 ├── fig                   # Results figures
+
 ├── input                 # Datasets
+
 ├── output                # Resutls
 
 
