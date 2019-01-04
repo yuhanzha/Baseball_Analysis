@@ -6,6 +6,9 @@ Term: Fall 2018
 	+ Wanting Cui
 	+ Yuhan Zha
 
+## Instruction:
+
+The web application can be accessed using this link http://35.227.91.177:5000. To run the application on local machine, please clone the repository and run app.py and usage-callback.py on local terminal.
 	
 ## Introduction:
 
