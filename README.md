@@ -48,6 +48,8 @@ Web App Site: http://35.227.91.177:5000
 	![finding](fig/part3.png)
 	+ Part IV - Award Winner Prediction
 	![finding](fig/part4.png)
+	+ About Us
+	![finding](fig/aboutus.png)
 
 
 	
