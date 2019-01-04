@@ -8,7 +8,7 @@ Term: Fall 2018
 
 ## Instruction:
 
-The web application can be accessed using this link http://35.227.91.177:5000. To run the application on local machine, please clone the repository and run app.py and usage-callback.py on local terminal. For detail information regarding this web application, please refer to [Paper](Big_Data_Analytics_Final_Report.pdf)
+The web application can be accessed using this link http://35.227.91.177:5000. To run the application on local machine, please clone the repository and run app.py and usage-callback.py on local terminal. For detail information regarding this web application, please refer to this [Paper](Big_Data_Analytics_Final_Report.pdf).
 	
 ## Introduction:
 
