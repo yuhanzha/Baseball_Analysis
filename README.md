@@ -2,9 +2,10 @@
 Term: Fall 2018
 
 + **Team Members:**
+	+ Yuhan Zha
 	+ Leo Lam 
 	+ Wanting Cui
-	+ Yuhan Zha
+	
 
 ## Instruction:
 
@@ -65,7 +66,7 @@ Lahmen’s Baseball Database is the primary data source of this study. ​This d
 
 ## Contribution statement: 
 
-Team members: Leo Lam, Wanting Cui, Yuhan Zha contributed equally in all stages of this project.
+Team members: Yuhan Zha, Leo Lam, Wanting Cui contributed equally in all stages of this project.
 
 
 	
@@ -79,5 +80,5 @@ Following [suggestions](https://github.com/Sapphirine/Baseball_Analysis). This f
 ├── output                # Resutls
 ```
 
-Please see each subfolder for a README file..
+Please see each subfolder for a README file.
 
