@@ -79,5 +79,5 @@ Following [suggestions](https://github.com/Sapphirine/Baseball_Analysis). This f
 ├── output                # Resutls
 ```
 
-Please see each subfolder for a README file.
+Please see each subfolder for a README file..
 
